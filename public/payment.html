@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dummy Payment Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="mt-4">Dummy Payment Page</h2>
+    <form id="paymentForm">
+      <!-- Billing Information -->
+      <h4 class="mt-4">Billing Information</h4>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+      </div>
+      <!-- Other input fields for email, phone number, etc. -->
+
+      <!-- Payment Information -->
+      <h4 class="mt-4">Payment Information</h4>
+      <!-- Input fields for card number, expiration date, CVV, cardholder name -->
+
+      <!-- Billing Address -->
+      <h4 class="mt-4">Billing Address</h4>
+      <!-- Input fields for street address, city, state, ZIP code, country -->
+
+      <!-- Order Summary -->
+      <h4 class="mt-4">Order Summary</h4>
+      <!-- Table or list to display items, subtotal, tax, total amount -->
+
+      <!-- Payment Method -->
+      <h4 class="mt-4">Payment Method</h4>
+      <!-- Radio buttons for credit card, debit card -->
+
+      <!-- Terms and Conditions -->
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="agreeTerms">
+        <label class="form-check-label" for="agreeTerms">I agree to the terms and conditions.</label>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary">Complete Payment</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
